@@ -13,8 +13,8 @@
 git add .
 git commit -m "vs2"
 echo "----------------------"
-# git remote -v
-# git remote remove origin
+git remote -v
+git remote remove origin
 # echo "----------------------"
 
 git_token=$1
@@ -23,9 +23,8 @@ username=VincentChong123
 repository=00_sutd_modeling
 echo "$git_token"
 # echo ${git_token}
-# git remote add origin "https://${git_token}@github.com/${username}/${repository}.git"
+git remote add origin "https://${git_token}@github.com/${username}/${repository}.git"
 # echo "----------------------"
-#!git remote add origin https://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@github.com/{username}/{repository}.git
 git remote -v
 # echo "----------------------"
 # # git branch
