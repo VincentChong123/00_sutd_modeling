@@ -16,7 +16,9 @@ echo "----------------------"
 git remote -v
 git remote remove origin
 echo "----------------------"
-git_token=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
+
+
+git_token=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
 username=VincentChong123
 repository=00_sutd_modeling
 echo "$git_token"
@@ -26,14 +28,14 @@ echo "----------------------"
 #!git remote add origin https://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@github.com/{username}/{repository}.git
 git remote -v
 echo "----------------------"
-git branch
-git branch -r
-echo "----------------------"
+# git branch
+# git branch -r
+echo "2----------------------"
 git branch -M main
-echo "----------------------"
-git branch
-git branch -r
-echo "----------------------"
+echo "1----------------------"
+# git branch
+# git branch -r
+echo "3----------------------"
 git push origin main
 echo "finish"
 
